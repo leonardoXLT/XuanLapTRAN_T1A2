@@ -1,11 +1,11 @@
 /* Two color options** for footer and img animation:
 
-OPTION 1***
+OPTION 1*** NOT IN USE
 $special-color: linear-gradient(45deg, #00E1FD, #FC007A);
 $special-color-animation: linear-gradient(45deg, #FC007A, #00E1FD, #FC007A);
 
 OPTION 2*** ALREADY IN USE */
-/* animation for all pages BELOW*/
+/* General animation styling for all pages BELOW*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 @keyframes slideTop {
   0% {
@@ -94,12 +94,12 @@ OPTION 2*** ALREADY IN USE */
 }
 /* Two color options** for footer and img animation:
 
-OPTION 1***
+OPTION 1*** NOT IN USE
 $special-color: linear-gradient(45deg, #00E1FD, #FC007A);
 $special-color-animation: linear-gradient(45deg, #FC007A, #00E1FD, #FC007A);
 
 OPTION 2*** ALREADY IN USE */
-/* animation for all pages BELOW*/
+/* General animation styling for all pages BELOW*/
 @keyframes slideTop {
   0% {
     opacity: 0;
@@ -187,7 +187,7 @@ OPTION 2*** ALREADY IN USE */
 }
 /* Two color options** for footer and img animation:
 
-OPTION 1***
+OPTION 1*** NOT IN USE
 $special-color: linear-gradient(45deg, #00E1FD, #FC007A);
 $special-color-animation: linear-gradient(45deg, #FC007A, #00E1FD, #FC007A);
 
@@ -371,12 +371,12 @@ body {
 }
 /* Two color options** for footer and img animation:
 
-OPTION 1***
+OPTION 1*** NOT IN USE
 $special-color: linear-gradient(45deg, #00E1FD, #FC007A);
 $special-color-animation: linear-gradient(45deg, #FC007A, #00E1FD, #FC007A);
 
 OPTION 2*** ALREADY IN USE */
-/* animation for all pages BELOW*/
+/* General animation styling for all pages BELOW*/
 @keyframes slideTop {
   0% {
     opacity: 0;
@@ -464,7 +464,7 @@ OPTION 2*** ALREADY IN USE */
 }
 /* Two color options** for footer and img animation:
 
-OPTION 1***
+OPTION 1*** NOT IN USE
 $special-color: linear-gradient(45deg, #00E1FD, #FC007A);
 $special-color-animation: linear-gradient(45deg, #FC007A, #00E1FD, #FC007A);
 
@@ -528,6 +528,7 @@ footer p {
   transform: scale(0);
 }
 
+/* Responsiveness for footer */
 @media screen and (min-width: 769px) {
   footer .home-sci {
     max-width: 700px;

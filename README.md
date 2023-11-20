@@ -1,7 +1,7 @@
 # README document
 
 # T1A2 Portfolio Assignment
-### Published Portfolio Website (URL link):
+### Published Portfolio Website (URL link): https://leo-tran-portfolio.netlify.app/
 
 ### Github Repo: https://github.com/leonardoXLT/XuanLapTRAN_T1A2
 
@@ -26,21 +26,20 @@ The website also aims to network with others: prospective employers and other as
 
 ## 4. Screenshots
 
-### Home page
+# Home page
 ![Home page screenshot](./docs/result/home.JPG)
 
-### About
+# About
 ![About screenshot](./docs/result/about.JPG)
 
-### Skills
+# Skills
 ![Skills screenshot](./docs/result/skills.JPG)
 
-### Blog
+# Blog
 ![Blog screenshot](./docs/result/iPhone%2014%20&%2015%20Pro%20Max%20-%2011.jpg)
 ![Blog screenshot](./docs/result/iPad%20Pro%2011_%20-%2011.jpg)
 ![Blog screenshot](./docs/result/Desktop%20-%201034.jpg)
-
-### Contact
+# Contact
 ![Contact screenshot](./docs/result/Contact.JPG)
 
 ## 5. Target audience
