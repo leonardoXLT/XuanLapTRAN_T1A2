@@ -14,11 +14,11 @@ Tech stack (e.g. html, css, deployment platform, etc)
 
 
 # T1A2 Portfolio Assignment
-### Published Portfolio Website (URL link): https://lucent-pixie-cb89a3.netlify.app
+### Published Portfolio Website (URL link):
 
-### Github Repo: https://github.com/pipersjames/T1A2
+### Github Repo: https://github.com/leonardoXLT/XuanLapTRAN_T1A2
 
-### Presentation Video: https://youtu.be/Q3bbFVJBvaM
+### Presentation Video:
 
 ## 1. Purpose 
 
