@@ -1,17 +1,4 @@
 # README document
-General project documentation is to be compiled as a single markdown file named README.md. This file should contain,
-
-A link (URL) to your published portfolio website
-A link to your GitHub repo
-A link to your presentation video
-Description of your portfolio website, including,
-Purpose
-Functionality / features
-Sitemap
-Screenshots
-Target audience
-Tech stack (e.g. html, css, deployment platform, etc)
-
 
 # T1A2 Portfolio Assignment
 ### Published Portfolio Website (URL link):
