@@ -19,6 +19,21 @@ The website also aims to network with others: prospective employers and other as
 
 ## 2. Functionality / features
 
+### My portfolio website has the following functionality and features:
+
+1. A responsive and user-friendly design that adapts to different screen sizes and devices, using HTML, CSS, and SCSS.
+
+2. A navigation bar that allows users to access different sections of the website, such as Home, About, Skills, Blog, and Contact.
+
+3. The Portfolio website uses different animation effects to boost engagement: 
+    -	glowing animation.
+    -	floating animation.
+    -	progress bar animation.
+    -	slide animation.
+
+4. A footer that contains some additional information and links to my GitHub profile and portfolio website.
+
+
 ## 3. Sitemap
 
 ![Sitemap](./docs/sitemap.jpg)
