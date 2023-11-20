@@ -45,11 +45,9 @@ The website also aims to network with others: prospective employers and other as
 
 ## 5. Target audience
 
-* Primarily for - Potential Employers
-* Secondary - Friends and Family
-* Secondary - Current Work colleagues
+1.	HR/Recruitment/Employer.
+2.	Colleagues, Family & Friends.
 
-note: secondary target audience would be for referral of work or pure enjoyment.
 
 ## 6. Tech Stack
 
