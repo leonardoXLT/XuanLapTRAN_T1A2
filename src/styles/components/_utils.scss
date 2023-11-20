@@ -1,0 +1,15 @@
+@import "../defaults/colors";
+
+/* I use  * {} instead of html {} or body {} for the purpose of general styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+body {
+    color: $font-color;
+    background: $primary-background;
+}

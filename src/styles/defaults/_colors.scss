@@ -1,0 +1,17 @@
+$primary-color: #85EBD9;
+$secondary-color: #FFCB9A;
+$font-color: #fff;
+$primary-background: #2f404d;
+$secondary-background: #3d898D;
+
+/* Two color options** for footer and img animation:
+
+OPTION 1***
+$special-color: linear-gradient(45deg, #00E1FD, #FC007A);
+$special-color-animation: linear-gradient(45deg, #FC007A, #00E1FD, #FC007A);
+
+OPTION 2*** ALREADY IN USE */
+$special-color: linear-gradient(45deg, $secondary-background, $primary-color, $secondary-color);
+$special-color-animation: linear-gradient(45deg, $primary-background, $primary-color, $secondary-color);
+
+

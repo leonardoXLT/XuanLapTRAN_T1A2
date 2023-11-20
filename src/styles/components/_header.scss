@@ -1,0 +1,191 @@
+@import "../defaults/colors";
+@import "../defaults/breakpoints";
+@import "../defaults/animation";
+@import "./utils";
+
+/* General styling for header, logo and navbar including animation */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 5%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: $font-color;
+    text-decoration: none;
+    font-weight: 600;
+    pointer-events: none;
+    opacity: 0;
+    animation: slideTop 1s forwards;
+}
+
+.navbar {
+    a {
+        display: inline-block;
+        font-size: 18px;
+        color: $font-color;
+        text-decoration: none;
+        font-weight: 500;
+        margin-left: 35px;
+        opacity: 0;
+        animation: slideTop 1s forwards;
+        animation-delay: calc(.2s * var(--1));
+
+        &.active, &:hover {
+            background: $special-color;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            background-clip: text
+        }
+    }
+}
+
+/* Responsive styling for header, logo and navbar BELOW*/
+
+@media screen and (max-width: $moblie) {
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        z-index: 100;
+    }
+    
+    .logo {
+        font-size: 25px;
+        color: $font-color;
+        text-decoration: none;
+        font-weight: 600;
+        pointer-events: none;
+        opacity: 0;
+        animation: slideTop 1s forwards;
+    }
+    
+    .navbar {
+        a {
+            display: block;
+            font-size: 18px;
+            padding: 10px;
+            color: $font-color;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            opacity: 0;
+            animation: slideTop 1s forwards;
+            animation-delay: calc(.2s * var(--1));
+    
+            &.active, &:hover {
+                background: $special-color;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    .logo {
+        font-size: 25px;
+        color: $font-color;
+        text-decoration: none;
+        font-weight: 600;
+        pointer-events: none;
+        opacity: 0;
+        animation: slideTop 1s forwards;
+    }
+    
+    .navbar {
+        a {
+            display: inline-block;
+            font-size: 18px;
+            color: $font-color;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            opacity: 0;
+            animation: slideTop 1s forwards;
+            animation-delay: calc(.2s * var(--1));
+    
+            &.active, &:hover {
+                background: $special-color;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 10%;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    .logo {
+        font-size: 35px;
+        color: $font-color;
+        text-decoration: none;
+        font-weight: 600;
+        pointer-events: none;
+        opacity: 0;
+        animation: slideTop 1s forwards;
+    }
+    
+    .navbar {
+        a {
+            display: inline-block;
+            font-size: 24px;
+            color: $font-color;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 35px;
+            opacity: 0;
+            animation: slideTop 1s forwards;
+            animation-delay: calc(.2s * var(--1));
+    
+            &.active, &:hover {
+                background: $special-color;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text
+            }
+        }
+    }
+}

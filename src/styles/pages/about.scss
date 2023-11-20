@@ -1,0 +1,18 @@
+@import "../../index";
+
+/* added animation for ABOUT section */
+
+article {
+    p {
+        opacity: 0;
+        animation: slideLeft 5s forwards;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    article {
+        p{
+            font-size: 20px;
+        }
+    }
+}

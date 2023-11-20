@@ -1,0 +1,267 @@
+@import "./styles/defaults/colors";
+@import "./styles/defaults/breakpoints";
+@import "./styles/defaults/animation";
+@import "./styles/components/header";
+@import "./styles/components/footer";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+@media screen and (max-width: $moblie) {
+    .home {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 70px 10% 0;
+    }
+    
+    .home-img {
+        margin: 15px;
+        width: 250px;
+        height: 250px;
+        opacity: 0;
+        animation: floatImage 4s infinite;
+        animation-delay: 2.1s;
+    
+        .glowing-circle {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            &::after {
+                content: '';
+                position: absolute;
+                width: 230px;
+                height: 230px;
+                background: $primary-background;
+                border-radius: 50%;
+            }
+    
+            span {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: $special-color;
+                border-radius: 50%;
+                animation: circle-animation 4s linear infinite;
+    
+                &:nth-child(1) {
+                    filter: blur(20px);
+                }
+            }
+    
+            .image {
+                position: relative;
+                width: 230px;
+                height: 230px;
+                border-radius: 50%;
+                z-index: 1;
+                overflow: hidden;
+    
+                img {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    max-width: 200px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+    .home-content {
+        max-width: 100%;
+        margin-left: 0;
+    
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1.2;
+            opacity: 0;
+            animation: slideRight 1s forwards;
+            animation-delay: .7s;
+        }
+    
+        h3 {
+            font-size: 32px;
+            font-weight: 700;
+            opacity: 0;
+            animation: slideLeft 1.25s forwards;
+            animation-delay: 1s;
+            color: $secondary-color;
+        }
+    
+        p {
+            font-size: 20px;
+            margin: 20px 0 40px;
+            opacity: 0;
+            animation: slideLeft 1.5s forwards;
+            animation-delay: 1.3s;
+        }
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .home {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 5% 0;
+    }
+    
+    .home-content {
+        max-width: 50%;
+        margin-left: 30px;
+    
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1.2;
+            opacity: 0;
+            animation: slideRight 1s forwards;
+            animation-delay: .7s;
+        }
+    
+        h3 {
+            font-size: 24px;
+            font-weight: 700;
+            opacity: 0;
+            animation: slideLeft 1.25s forwards;
+            animation-delay: 1s;
+            color: $secondary-color;
+        }
+    
+        p {
+            font-size: 18px;
+            margin: 20px 0 40px;
+            opacity: 0;
+            animation: slideLeft 1.5s forwards;
+            animation-delay: 1.3s;
+        }
+    }
+    
+    .home-img {
+        width: 320px;
+        height: 320px;
+        opacity: 0;
+        animation: floatImage 4s infinite;
+        animation-delay: 2.1s;
+    
+        .glowing-circle {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            &::after {
+                content: '';
+                position: absolute;
+                width: 300px;
+                height: 300px;
+                background: $primary-background;
+                border-radius: 50%;
+            }
+    
+            span {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background: $special-color;
+                border-radius: 50%;
+                animation: circle-animation 4s linear infinite;
+    
+                &:nth-child(1) {
+                    filter: blur(20px);
+                }
+            }
+    
+            .image {
+                position: relative;
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                z-index: 1;
+                overflow: hidden;
+    
+                img {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    max-width: 270px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    border-radius: 48px;
+    width: 35%;
+    max-width: 700px;
+    height: 48px;
+    font-size: 18px;
+    color: $font-color;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    opacity: 0;
+    animation: slideTop 1.6s forwards;
+    animation-delay: 1.8s;
+
+    &:before, &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        inset: 0;
+        background: $special-color-animation;
+        background-size: 200%;
+        background-position: 0 0;
+        z-index: -1;
+        border-radius: 40px;
+        transition: 2s ease;
+    }
+
+    &:hover:before, &:hover:after {
+        background-position: 100% 0;
+    }
+
+    &:before {
+        filter: blur(15px);
+    }
+}
+
+article {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    p {
+        padding: 20px;
+        text-align: center;
+        max-width: 700px;
+    }
+    img {
+        width: 100%;
+        max-width: 1400px;
+        position: relative;
+        padding: 20px;
+    }
+}
