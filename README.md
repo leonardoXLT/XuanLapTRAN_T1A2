@@ -5,7 +5,7 @@
 
 ### Github Repo: https://github.com/leonardoXLT/XuanLapTRAN_T1A2
 
-### Presentation Video:
+### Presentation Video: https://youtu.be/N7UkNmupwW0?si=QDuuMrVr8MkL-834
 
 ## 1. Purpose 
 
